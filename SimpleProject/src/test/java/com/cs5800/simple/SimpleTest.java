@@ -7,8 +7,9 @@ import org.junit.Test;
 public class SimpleTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void aSimpleTestToSeeIfSkyIsBlue() {
+		boolean isSkyBlue = true;
+		assertTrue(isSkyBlue);
 	}
 
 }
